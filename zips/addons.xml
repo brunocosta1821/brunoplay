@@ -1,0 +1,56 @@
+<addons>
+addon provider-name="brunoplay" version="1.0" name="[COLOR white][B]Exemplo-TioJarvis[/B][/COLOR]" id="plugin.video.Exemplo-TioJarvis">
+
+
+-<requires>
+
+<import version="2.1.0" addon="xbmc.python"/>
+
+<import version="3.2.1" addon="script.module.beautifulsoup"/>
+
+<import version="0.9.4" addon="script.module.simple.downloader"/>
+
+<import addon="script.module.beautifulsoup4"/>
+
+<import addon="script.module.requests"/>
+
+<import addon="script.module.httplib2"/>
+
+<import version="0.1.24" addon="script.module.liveresolver" optional="true"/>
+
+<import addon="script.module.youtube.dl" optional="true"/>
+
+<import addon="plugin.video.youtube" optional="true"/>
+
+<import addon="plugin.video.SportsDevil" optional="true"/>
+
+<import addon="script.module.urlresolver" optional="true"/>
+
+<import addon="script.module.simplejson"/>
+
+<import addon="script.module.livestreamer" optional="true"/>
+
+<import addon="script.module.pyamf" optional="true"/>
+
+</requires>
+
+
+-<extension library="default.py" point="xbmc.python.pluginsource">
+
+<provides>video</provides>
+
+</extension>
+
+
+-<extension point="xbmc.addon.metadata">
+
+<summary>Exemplo-TioJarvis</summary>
+
+<description> Addon exemplo para ajudar iniciantes criarem seu próprio addon para kodi. </description>
+
+<platform>all</platform>
+
+</extension>
+
+</addon
+</addons>
